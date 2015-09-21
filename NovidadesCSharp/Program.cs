@@ -26,8 +26,8 @@ namespace NovidadesCSharp
             //ExemploNullConditionalOperator.NovoBairro();
             //ExemploSemNullConditionalOperator.NovoBairro();
 
-            //ExemploStringInterpolation.Concatenar();
-            //ExemploSemStringInterpolation.Concatenar();
+            ExemploStringInterpolation.Concatenar();
+            ExemploSemStringInterpolation.Concatenar();
 
             Console.ReadKey();
         }
