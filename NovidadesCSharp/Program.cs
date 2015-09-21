@@ -1,4 +1,5 @@
 ﻿using NovidadesCSharp.AutoPropertyInitializer;
+using NovidadesCSharp.ExceptionFilter;
 using NovidadesCSharp.ExpressionBodiedMembers;
 using NovidadesCSharp.ExpressoesLambda;
 using NovidadesCSharp.NullConditionalOperator;
@@ -26,8 +27,11 @@ namespace NovidadesCSharp
             //ExemploNullConditionalOperator.NovoBairro();
             //ExemploSemNullConditionalOperator.NovoBairro();
 
-            ExemploStringInterpolation.Concatenar();
-            ExemploSemStringInterpolation.Concatenar();
+            //ExemploStringInterpolation.Concatenar();
+            //ExemploSemStringInterpolation.Concatenar();
+
+            //ExemploExceptionFilter.GerarException();
+            //ExemploSemExceptionFilter.GerarException();
 
             Console.ReadKey();
         }
