@@ -2,6 +2,7 @@
 using NovidadesCSharp.ExceptionFilter;
 using NovidadesCSharp.ExpressionBodiedMembers;
 using NovidadesCSharp.ExpressoesLambda;
+using NovidadesCSharp.NameOf;
 using NovidadesCSharp.NullConditionalOperator;
 using NovidadesCSharp.StringInterpolation;
 using NovidadesCSharp.UsingStatic;
@@ -32,6 +33,9 @@ namespace NovidadesCSharp
 
             //ExemploExceptionFilter.GerarException();
             //ExemploSemExceptionFilter.GerarException();
+
+            //ExemploNameOf.VerNomes();
+            //ExemploSemNameOf.VerNomes();
 
             Console.ReadKey();
         }
