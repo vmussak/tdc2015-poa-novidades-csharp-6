@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="AutoPropertyInitializer\ExemploSemAutoPropertyInitializer.cs" />
     <Compile Include="AutoPropertyInitializer\ExemploAutoPropertyInitializer.cs" />
+    <Compile Include="ExceptionFilter\ExemploExceptionFilter.cs" />
+    <Compile Include="ExceptionFilter\ExemploSemExceptionFilter.cs" />
     <Compile Include="ExpressionBodiedMembers\ExemploExpressionBodiedMembers.cs" />
     <Compile Include="ExpressionBodiedMembers\ExemploSemExpressionBodiedMembers.cs" />
     <Compile Include="ExpressoesLambda\DebugExpressoesLambda.cs" />
