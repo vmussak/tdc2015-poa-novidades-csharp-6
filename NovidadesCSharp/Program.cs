@@ -1,4 +1,5 @@
 ﻿using NovidadesCSharp.AutoPropertyInitializer;
+using NovidadesCSharp.ChamadasAssincronas;
 using NovidadesCSharp.ExceptionFilter;
 using NovidadesCSharp.ExpressionBodiedMembers;
 using NovidadesCSharp.ExpressoesLambda;
@@ -36,6 +37,8 @@ namespace NovidadesCSharp
 
             //ExemploNameOf.VerNomes();
             //ExemploSemNameOf.VerNomes();
+            
+            ExemploChamadasAssincronas.Testar();
 
             Console.ReadKey();
         }
