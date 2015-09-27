@@ -9,13 +9,11 @@ namespace NovidadesCSharp.ExpressoesLambda
         {
             var pedidos = new PedidoRepository().ListarTodosOsPedidos();
 
-            var pedidosPendentesErrado = pedidos.Where(x => x.Confirmado || !x.Confirmado);
+            var pedidosPendentes = pedidos.Where(x => !x.Confirmado);
 
-            Console.WriteLine("{0} Pedidos pendentes", pedidosPendentesErrado.Count());
+            Console.WriteLine("{0} Pedidos pendentes", pedidosPendentes.Count());
             Console.WriteLine("Primeiro pedido:");
-            Console.WriteLine(pedidosPendentesErrado.First().ToString());
-
-            Console.ReadKey();
+            Console.WriteLine(pedidosPendentes.First().ToString());
         }
     }
 }

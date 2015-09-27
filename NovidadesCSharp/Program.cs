@@ -17,8 +17,8 @@ namespace NovidadesCSharp
         {
             //DebugExpressoesLambda.VerPedidosPendentes();
 
-            //ExemploUsingStatic.Produto(10, 20);
-            //ExemploSemUsingStatic.Produto(10, 20);
+            //ExemploUsingStatic.Produto(2, 3);
+            //ExemploSemUsingStatic.Produto(2, 4);
 
             //ExemploAutoPropertyInitializer.NovoEvento();
             //ExemploSemAutoPropertyInitializer.NovoEvento();
@@ -38,7 +38,7 @@ namespace NovidadesCSharp
             //ExemploNameOf.VerNomes();
             //ExemploSemNameOf.VerNomes();
             
-            ExemploChamadasAssincronas.Testar();
+            //ExemploChamadasAssincronas.Testar();
 
             Console.ReadKey();
         }
